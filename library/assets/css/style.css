@@ -1,0 +1,137 @@
+﻿/* =============================
+   GENERAL STYLES
+============================== */
+body {
+    font-family: 'Open Sans', sans-serif;
+    line-height: 1.6;
+    background-image: url('lib.jpg');
+    background-size: cover;
+    background-position: center;
+    margin: 0;
+    padding: 0;
+}
+
+.content-wrapper {
+    margin-top: 40px;
+    padding-bottom: 90px;
+}
+
+.header-line {
+    font-weight: 900;
+    padding-bottom: 25px;
+    border-bottom: 1px solid #eee;
+    text-transform: uppercase;
+    text-align: center;
+    transition: color 0.5s ease;
+    color: #000;
+}
+
+.header-line:hover {
+    color: #868686;
+}
+
+.pad-botm {
+    padding-bottom: 30px;
+}
+
+/* =============================
+   NAVBAR & MENU STYLES
+============================== */
+#menu-top a {
+    color: #a9cfe2;
+    text-decoration: none;
+    font-weight: 500;
+    padding: 25px 15px;
+    text-transform: uppercase;
+    transition: color 0.3s ease;
+}
+
+#menu-top a:hover {
+    color: #000;
+}
+
+.menu-section {
+    background-color: #140460;
+    border-bottom: 5px solid #2e0294;
+}
+
+.navbar-inverse {
+    background-color: #fff;
+    border-color: rgba(135, 135, 135, 0.23);
+}
+
+.navbar-inverse .navbar-collapse, .navbar-inverse .navbar-form {
+    border-color: transparent;
+}
+
+.navbar-toggle {
+    background-color: black;
+    border: 1px solid black;
+}
+
+/* =============================
+   FOOTER SECTION STYLES
+============================== */
+.footer-section {
+    padding: 25px 50px;
+    color: #130136;
+    font-size: 13px;
+    background-color: #f7f7f7;
+    text-align: right;
+    border-top: 5px solid #7243e9;
+}
+
+
+
+/* =============================
+   LOGIN FORM STYLES
+============================== */
+.login-container {
+    width: 300px;
+    margin: 0 auto;
+    padding: 20px;
+    border-radius: 10px;
+    background-image: url('mirror.jpg');
+    background-size: cover;
+    background-position: center;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.form-title {
+    text-align: center;
+    margin-bottom: 20px;
+    font-size: 24px;
+}
+
+.form-control {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 15px;
+    border: none;
+    border-radius: 5px;
+}
+
+.form-control:focus {
+    outline: none;
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.1);
+}
+
+.btn-submit {
+    background-color: #0090f7;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    padding: 10px 20px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.btn-submit:hover {
+    background-color: #0073c6;
+}
+.footer {
+    background-color: #1d0569;
+    padding: 40px 0;
+    color: #ffffff;
+}
+
